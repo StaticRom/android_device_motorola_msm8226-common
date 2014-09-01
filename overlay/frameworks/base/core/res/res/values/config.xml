@@ -214,10 +214,6 @@
         config to 7. -->
     <integer name="config_deviceHardwareKeys">0</integer>
 
-    <!-- Performance profiles -->
-    <string name="config_perf_profile_prop">sys.perf.profile</string>
-    <string name="config_perf_profile_default_entry">1</string>
-
     <!-- Component name of the geofence services provider. -->
     <string name="config_geofenceServicesProvider" translatable="false">com.motorola.motgeofencesvc</string>
 
@@ -227,7 +223,7 @@
     <!-- Default interface to monitor data use -->
     <string name="config_datause_iface">rmnet0</string>
 
-    <!-- Whether to enable auto provisioning the app for new SIM card on boot.-->
-    <bool name="config_auto_provision_enable">true</bool>
+    <!-- Whether to enable auto provisioning the app for new SIM card on boot.
+    <bool name="config_auto_provision_enable">true</bool> -->
 
 </resources>
